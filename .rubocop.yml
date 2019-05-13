@@ -1,0 +1,20 @@
+Metrics/LineLength:
+  Max: 100
+  IgnoreCopDirectives: true
+
+Naming/FileName:
+  Exclude:
+    - 'lib/web_package-rails.rb'
+
+Naming/UncommunicativeMethodParamName:
+  AllowedNames:
+    - s
+
+Style/CharacterLiteral:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
